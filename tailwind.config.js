@@ -13,6 +13,9 @@ export default {
           950: "#111111",
         },
       },
+      boxShadow: {
+        solid: "8px 8px 0px 0px black",
+      },
     },
   },
 };
