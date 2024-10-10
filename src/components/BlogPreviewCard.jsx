@@ -32,11 +32,11 @@ const BlogPreviewCard = () => {
                 <p className="text-[12px] sm:text-[16px] font-medium">
                   Publised 21 Dec 2023
                 </p>
-                <h1 className="font-extrabold text-[16px] sm:text-[20px]">
+                <h1 className="font-extrabold text-[16px] sm:text-[20px] hover:cursor-pointer hover:text-yellow-950">
                   HTML & CSS Foundations
                 </h1>
 
-                <p className="font-medium text-[14px] sm:text-[16px]">
+                <p className="font-medium text-[14px] sm:text-[16px] ">
                   These languages are the backbone of every website, defining
                   structure, content and presentation.
                 </p>
