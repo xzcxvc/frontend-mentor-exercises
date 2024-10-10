@@ -19,26 +19,32 @@ const BlogPreviewCard = () => {
               />
               {/* blog preview contents */}
               <div className="flex flex-col gap-[12px]">
-                <button
-                  type="button"
-                  className="bg-yellow-950  w-[200px] justify-center items-center font-extrabold px-[12px] py-[4px] xs:w-[73px] xs:h-[26px] sm:w-[82px] sm:h-[29px] xs:text-[12px ] sm:text-[14px] rounded-[4px]"
-                >
-                  Learnings
-                </button>
-                <p>Publised 21 Dec 2023</p>
-                <h1 className="font-extrabold text-[24px] xs:text-[20px] sm:[text-[24px]">
+                <div className="w-[82px] ">
+                  <button
+                    onClick={alert}
+                    className="flex items-center px-12 justify-center bg-yellow-950 w-full rounded-[4px] py-[4px] "
+                  >
+                    <span className=" font-extrabold text-[12px] sm:text-[14px]">
+                      Learning
+                    </span>
+                  </button>
+                </div>
+                <p className="text-[12px] sm:text-[16px] font-medium">
+                  Publised 21 Dec 2023
+                </p>
+                <h1 className="font-extrabold text-[16px] sm:text-[20px]">
                   HTML & CSS Foundations
                 </h1>
 
-                <p>
+                <p className="font-medium text-[14px] sm:text-[16px]">
                   These languages are the backbone of every website, defining
                   structure, content and presentation.
                 </p>
               </div>
               {/* blogger */}
-              <div className="flex gap-3 items-center py-[]">
+              <div className="flex gap-3 items-center ">
                 <img src={avatarImg} alt="user-image" width="32px" />
-                <span>Greg Hooper</span>
+                <span className="font-extrabold">Greg Hooper</span>
               </div>
             </div>
           </div>
