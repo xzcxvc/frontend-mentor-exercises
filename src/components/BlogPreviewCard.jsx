@@ -25,7 +25,7 @@ const BlogPreviewCard = () => {
                     className="flex items-center px-12 justify-center bg-yellow-950 w-full rounded-[4px] py-[4px] "
                   >
                     <span className=" font-extrabold text-[12px] sm:text-[14px]">
-                      Learningsss
+                      Learning
                     </span>
                   </button>
                 </div>
