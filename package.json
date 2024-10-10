@@ -1,10 +1,12 @@
 {
-  "homepage":"https://xzcxvc/github.io/frontend-mentor-exercises/",
+  "homepage":"https://xzcxvc.github.io/frontend-mentor-exercises/",
   "name": "frontend-mentor-exercises",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
